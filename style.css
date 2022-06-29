@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --cor1: #F40049;
+    --cor2: #fcfc;
+    --cor3: #191919;
+    --cor4: #101010;
+    --cor5: #090909;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.first-section {
+    height: 100vh;
+    background-color: var(--cor4);
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.span-portfolio {
+    color: var(--cor1);
+}
+.brand-list {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.nav-list {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.nav-list a {
+    margin-right: 30px;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--cor1);
+}
+.subscribe {
+    margin-right: 30px;
+    font-weight: bold;
+    background-color: var(--cor1);
+    color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.subscribe:hover {
+    transform: scale(1.2);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+/* Section Dados sobre mim abaixo do Menu */
+
+.section-eu {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.ola {
+    color: var(--cor2);
+    font-size: 1.3em;
+}
+.nome {
+    font-size: 5.5em;
+    font-weight: bold;
+    line-height: 1em;
+    color: white;
+}
+.nome span {
+    color: var(--cor1);
+}
+.developer {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+.contato-comecar {
+    display: inline-block;
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+    border: 2px solid var(--cor1);
+    margin-top: 20px;
+}
+#email {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+#email::placeholder {
+    color: gray;
+    font-size: 0.9em;
+}
+#comecar {
+    color: white;
+    background-color: var(--cor1);
+    font-size: 0.8em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+    box-shadow: 1px 1px 8px var(--cor4);
+}
+
+/* Section Sobre Mim */
+
+.sobre-mim {
+    background-color: var(--cor3);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about {
+    padding: 0;
+}
+.main-img {
+    width: 430px;
+}
+.informacoes {
+    width: 700px;
+    padding-left: 80px;
+}
+.about-me {
+    font-size: 4.5em;
+    color: white;
+    font-weight: bold;
+    line-height: 1em;
+}
+.funcao {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.designer {
+    color: var(--cor1);
+}
+.descricao {
+    color: var(--cor2);
+    font-size: 1.2em;
+}
+.conversar {
+    background-color: var(--cor1);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    border: 1px solid transparent;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+.conversar:hover {
+    background-color: var(--cor3);
+    color: white;
+    border: 1px solid var(--cor1);
+}
+
+/* Section Nossos Serviços */
+
+.section-servicos {
+    background-color: var(--cor4);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.nossos-servicos {
+    color: white;
+    font-size: 4.5em;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.servico {
+    max-width: 330px;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px 10px;
+    margin: 5px 15px;
+}
+.icon-servico {
+    color: var(--cor1);
+    font-size: 3em;
+}
+.titulo-servico {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.descricao-servico {
+    color: var(--cor2);
+    font-size: 1em;
+}
+.ler-mais {
+    background-color: var(--cor1);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.4s;
+}
+.ler-mais:hover {
+    background-color: var(--cor3);
+    color: white;
+    border: 1px solid var(--cor1);
+}
+
+/* Section Contatar Equipa */
+
+.section-contatar-equipa {
+    background-color: var(--cor3);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contatar-equipa {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.enviar-mensagem {
+    background-color: var(--cor1);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+.enviar-mensagem:hover {
+    background-color: var(--cor3);
+    color: white;
+    border: 1px solid var(--cor1);
+}
+
+/* Section Footer */
+
+.section-footer {
+    background-color: var(--cor4);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.footer {
+    text-align: center;
+}
+.nome-footer {
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.descricao-footer {
+    color: white;
+    font-size: 1em;
+}
+.icons-footer {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.icons-footer a {
+    width: 45px;
+    height: 45px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: 0.4s;
+}
+.icons-footer a:hover {
+    transform: scale(1.2);
+}
+.copyright {
+    color: var(--cor1);
+}
